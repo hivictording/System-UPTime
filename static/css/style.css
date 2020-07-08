@@ -1,0 +1,59 @@
+/* Global Config */
+:root {
+  --cadet-grey: hsla(205, 19%, 76%, 1);
+  --main-black: rgb(49, 53, 56);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../static/font/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: Opensans;
+  src: url(../static/font/OpenSans-Regular.ttf);
+}
+
+body {
+  font-family: Ubuntu;
+}
+
+.blue-button {
+  background: transparent;
+  color: blue;
+  border: 0.1em solid blue;
+  transition: all 0.6s linear;
+}
+
+.blue-button:hover {
+  background: rgba(0, 0, 255, 0.493);
+  color: white;
+}
+
+/* End of Global Config */
+
+/* Header */
+#header {
+  background-color: var(--main-black);
+}
+#header row {
+  min-height: 10vh;
+}
+/* End of Header */
+
+/* Table */
+#table {
+  background: var(--cadet-grey);
+  min-height: 90vh;
+  font-family: Opensans;
+}
+
+.blue-button.link-active {
+  background-color: blue;
+  color: white;
+}
+
+.table {
+  text-align: center;
+}
+/* End of Table */
