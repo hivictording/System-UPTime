@@ -1,6 +1,6 @@
 // Data from Backend
 
-var allData = [
+let allData = [
   {
     type: "gen7",
     testbed: "traffic",
@@ -210,9 +210,7 @@ window.addEventListener("DOMContentLoaded", () => {
   let typeSet = new Set().add("all");
   allData
     .map((data) => data.type)
-    .reduce((result, next) => {
-      return result.add(next);
-    }, typeSet);
+    .reduce((result, next) => result.add(next), typeSet);
 
   btnContainer.innerHTML = Array.from(typeSet)
     .map(
