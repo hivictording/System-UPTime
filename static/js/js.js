@@ -242,6 +242,7 @@ window.addEventListener("DOMContentLoaded", () => {
     })
   );
 
+  // Load default data
   uptimeCenter.innerHTML = showData(
     allData.filter((item) => item.type === buttons[1].dataset.type)
   );
