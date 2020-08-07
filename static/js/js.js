@@ -204,9 +204,9 @@ let allData = [
 let uptimeCenter = document.querySelector(".uptime-center");
 let btnContainer = document.querySelector(".btn-container");
 
-// After window get loaded
+// After DOM get loaded
 window.addEventListener("DOMContentLoaded", () => {
-  // generate buttons based on firewall type
+  // AUTO generate buttons based on firewall type
   let typeSet = new Set().add("all");
   allData
     .map((data) => data.type)
