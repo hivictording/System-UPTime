@@ -175,7 +175,7 @@ let allData = [
   {
     type: "ngpe",
     testbed: "traffic",
-    uptime: "22 Days 21:22:41",
+    uptime: "21 Days 21:22:41",
     ip: "10.7.5.72",
     firmware: "SonicOSEnhanced7.0.0.0-60v-42v-U39_1-920-e6748b6",
     model: "NSv200",
